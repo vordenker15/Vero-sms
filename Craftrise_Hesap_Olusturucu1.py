@@ -11,10 +11,21 @@ import random
 a = 1
 
 while a == 1:
+
+        
         rakamlar = "0123456789"
         harfler = "abcdefghijklmnopqrstuvwxyz"
         buyukharfler = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        isim = "Veronica" 
+        isim = ""
+        isim += buyukharfler[random.randint(0, 25)]
+        isim += rakamlar[random.randint(0, 9)]
+        isim += harfler[random.randint(0, 25)]
+        isim += rakamlar[random.randint(0, 9)]
+        isim += buyukharfler[random.randint(0, 25)]
+        isim += rakamlar[random.randint(0, 9)]
+        isim += harfler[random.randint(0, 25)]
+        isim += rakamlar[random.randint(0, 9)]
+        isim += buyukharfler[random.randint(0, 25)] 
         isim += rakamlar[random.randint(0, 9)]
         isim += harfler[random.randint(0, 25)]
         isim += rakamlar[random.randint(0, 9)]
@@ -22,7 +33,6 @@ while a == 1:
         isim += rakamlar[random.randint(0, 9)]
         isim += harfler[random.randint(0, 25)]
         isim += rakamlar[random.randint(0, 9)]
-        isim += buyukharfler[random.randint(0, 25)]
         
         
         email = "DonutST"
